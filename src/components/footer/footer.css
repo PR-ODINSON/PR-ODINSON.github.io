@@ -1,0 +1,128 @@
+/* Footer Container */
+.footer {
+    background-color: #000000; /* Pure Black */
+    color: #E2E8F0;
+    padding: 50px 20px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+}
+
+/* Footer Layout */
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* About Section */
+.footer-about h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #3B82F6; /* Bright Blue */
+    margin-bottom: 8px;
+}
+
+.footer-about p {
+    font-size: 1rem;
+    color: #CBD5E1;
+    max-width: 600px;
+}
+
+/* Social Media Links */
+.footer-links h3 {
+    font-size: 1.4rem;
+    margin-top: 20px;
+    color: #60A5FA; /* Light Blue */
+    font-weight: 500;
+}
+
+.social-icons {
+    display: flex;
+    gap: 18px;
+    margin-top: 12px;
+}
+
+.social-icons a {
+    color: #E2E8F0;
+    font-size: 1.8rem;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: rgba(59, 130, 246, 0.2); /* Light Blue Transparent */
+    box-shadow: 0px 0px 12px rgba(59, 130, 246, 0.4);
+}
+
+.social-icons a:hover {
+    background: #3B82F6; /* Bright Blue */
+    color: #fff;
+    transform: scale(1.2);
+    box-shadow: 0px 0px 20px rgba(59, 130, 246, 0.6);
+}
+
+/* Custom Unstop Icon */
+.unstop-icon {
+    width: 45px;
+    height: 45px;
+    background-color: #3B82F6; /* Blue */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 15px rgba(59, 130, 246, 0.5);
+}
+
+.unstop-icon:hover {
+    background-color: #60A5FA; /* Lighter Blue */
+    transform: scale(1.2);
+    box-shadow: 0px 0px 20px rgba(96, 165, 250, 0.7);
+}
+
+/* Back to Top Button */
+.back-to-top {
+    background: none;
+    border: none;
+    color: #3B82F6; /* Blue */
+    font-size: 2.5rem;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.back-to-top:hover {
+    transform: scale(1.3);
+    color: #60A5FA; /* Light Blue */
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    margin-top: 30px;
+    font-size: 1rem;
+    color: #94A3B8;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-about h2 {
+        font-size: 1.6rem;
+    }
+    
+    .footer-about p {
+        font-size: 0.95rem;
+    }
+    
+    .social-icons a {
+        font-size: 1.5rem;
+        width: 40px;
+        height: 40px;
+    }
+}

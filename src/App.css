@@ -1,0 +1,47 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: black;
+  color: #ffffff;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* App Container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Main Content */
+main {
+  flex: 1;
+  padding: 20px;
+  margin-top: 80px; /* Adjust for fixed navbar */
+}
+
+/* Footer Styling */
+footer {
+  background: #121212;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 1rem;
+  color: #ffffff;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  main {
+    padding: 10px;
+  }
+}
